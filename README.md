@@ -30,6 +30,10 @@ Users should be able to:
 #### Mobile 375px
 ![](./screenshots/mobile-screenshot.jpg)
 
+### Link
+
+- Live Site URL: [GitHub Pages](https://sebastian-agrano.github.io/frontend-mentor-order-summary-component/)
+
 ## My process
 
 ### Built with
