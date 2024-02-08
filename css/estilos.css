@@ -20,7 +20,7 @@ html {
 
 main {
   height: 100vh;
-  padding: 0 20px;
+  padding: 0 2%;
   background-color: var(--paleblue);
   background-image: url(../images/pattern-background-desktop.svg);
   background-repeat: no-repeat;
@@ -34,7 +34,7 @@ main {
 .tarjeta {
   width: 100%;
   max-width: 455px;
-  min-width: 335px;
+  min-width: 200px;
   background-color: white;
   font-family: "Red Hat Display", sans-serif;
   text-align: center;
@@ -99,6 +99,7 @@ ul ~ a {
   color: white;
   border-radius: 10px;
   box-shadow: 0px 10px 15px rgb(184, 185, 190);
+  transition: all 0.5s;
 }
 
 a + a {
@@ -115,6 +116,7 @@ a + a {
 
 a + a:hover {
   color: var(--darkblue);
+  transition: all 0.5s;
 }
 
 .boton:hover {
@@ -124,6 +126,7 @@ a + a:hover {
 li > a:hover {
   color: rgb(99, 99, 247);
   text-decoration: none;
+  transition: all 0.5s;
 }
 
 @media (max-width: 455px) {
@@ -139,5 +142,20 @@ li > a:hover {
 @media (max-width: 1440px) {
   main {
     background-size: initial;
+  }
+}
+
+@media (max-width: 375px) {
+  li > img {
+    width: 3.5rem;
+  }
+
+  #precio,
+  #plan {
+    font-size: 1.4rem;
+  }
+
+  li > a {
+    font-size: 1.4rem;
   }
 }
