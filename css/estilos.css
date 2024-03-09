@@ -19,33 +19,33 @@ html {
 }
 
 main {
+  display: flex;
   height: 100vh;
   padding: 0 2%;
+  font-size: 1.6rem;
+  font-weight: 500;
   background-color: var(--paleblue);
   background-image: url(../images/pattern-background-desktop.svg);
   background-repeat: no-repeat;
   background-size: contain;
   color: var(--darkblue);
-  font-weight: 500;
-  font-size: 1.6rem;
-  display: flex;
 }
 
 .tarjeta {
   width: 100%;
-  max-width: 455px;
   min-width: 200px;
-  background-color: white;
-  font-family: "Red Hat Display", sans-serif;
-  text-align: center;
-  border-radius: 20px;
+  max-width: 455px;
   margin: auto;
+  border-radius: 20px;
   overflow: hidden;
+  text-align: center;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: white;
 }
 
 .tarjeta > img {
-  width: inherit;
   display: block;
+  width: inherit;
 }
 
 .informacion {
@@ -62,13 +62,13 @@ h2 + p {
 }
 
 ul {
-  list-style-type: none;
-  background-color: var(--verypaleblue);
-  padding: 2rem;
-  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: var(--verypaleblue);
+  list-style-type: none;
 }
 
 li > img {
@@ -82,22 +82,22 @@ li > div {
 }
 
 #precio {
-  color: var(--desaturatedblue);
   margin-top: 0.5rem;
   letter-spacing: 1px;
+  color: var(--desaturatedblue);
 }
 
 ul ~ a {
   display: block;
-  text-decoration: none;
   margin-top: 3.5rem;
+  text-decoration: none;
 }
 
 .boton {
-  background-color: var(--brightblue);
   padding: 1.5rem;
-  color: white;
   border-radius: 10px;
+  background-color: var(--brightblue);
+  color: white;
   box-shadow: 0px 10px 15px rgb(184, 185, 190);
   transition: all 0.5s;
 }
@@ -124,8 +124,8 @@ a + a:hover {
 }
 
 li > a:hover {
-  color: rgb(99, 99, 247);
   text-decoration: none;
+  color: rgb(99, 99, 247);
   transition: all 0.5s;
 }
 
