@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,36 +7,39 @@
     <title>Desafío Frontend Mentor</title>
     <link
       rel="shortcut icon"
-      href="images/favicon-32x32.png"
+      href="assets/favicon-32x32.png"
       type="image/x-icon" />
-    <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <main>
-      <div class="tarjeta">
-        <img src="images/illustration-hero.svg" alt="Chica escuchando música" />
-        <div class="informacion">
-          <h2 class="peso-900">Order Summary</h2>
+      <div class="card">
+        <img
+          src="assets/illustration-hero.svg"
+          alt="Chica escuchando música"
+          class="card-img" />
+        <div class="informacion info-container">
+          <h1 class="weight-900">Order Summary</h1>
           <p>
             You can now listen to millons of songs, audiobooks, and postcasts on
             any device anywhere you like!
           </p>
           <ul>
             <li>
-              <img src="images/icon-music.svg" alt="icono musica" />
+              <img src="assets/icon-music.svg" alt="icono musica" />
             </li>
             <li>
               <div>
-                <p class="peso-900" id="plan">Annual Plan</p>
-                <p id="precio">$59.99/year</p>
+                <p class="weight-900 plan">Annual Plan</p>
+                <p class="price">$59.99/year</p>
               </div>
             </li>
             <li>
-              <a href="#" class="peso-700">Change</a>
+              <a href="#" class="change weight-700">Change</a>
             </li>
           </ul>
-          <a href="#" class="boton peso-700">Proceed to Payment</a>
-          <a href="#" class="peso-700">Cancel Order</a>
+          <a href="#" class="weight-700 button">Proceed to Payment</a>
+          <a href="#" class="weight-700">Cancel Order</a>
         </div>
       </div>
     </main>
